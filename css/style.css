@@ -105,6 +105,11 @@ body header .navbar .nav-item .dropdown-menu .dropdown-item:hover {
   transition: 0.4s all ease;
 }
 
+body header .dropdown:hover .dropdown-menu {
+  display: block;
+  margin-top: 0;
+}
+
 body header .navbar-collapse {
   -webkit-box-pack: end;
       -ms-flex-pack: end;
@@ -373,7 +378,8 @@ body footer .twitter {
   background: #00ccff;
 }
 
-body footer input {
+body footer input,
+body footer textarea {
   width: 100%;
   padding: 15px;
   background: grey;
@@ -381,7 +387,9 @@ body footer input {
   margin: 5px;
 }
 
-body footer .label-before, body footer .field input:valid + label::before, body footer .field input:focus + label::before {
+body footer .label-before, body footer .field input:valid + label::before,
+body footer .field textarea:valid + label::before, body footer .field input:focus + label::before,
+body footer .field textarea:focus + label::before {
   line-height: 20px;
   font-size: 12px;
   top: -10px;
@@ -407,7 +415,8 @@ body footer .field label::before {
   font-weight: 400;
 }
 
-body footer .field input {
+body footer .field input,
+body footer .field textarea {
   width: 100%;
   line-height: 40px;
   padding: 0 15px;
@@ -419,18 +428,21 @@ body footer .field input {
   background: #252628;
 }
 
-body footer .field input:focus {
+body footer .field input:focus,
+body footer .field textarea:focus {
   outline: 0;
   border-color: #0093d8;
 }
 
-body footer .field input:valid + label::before {
+body footer .field input:valid + label::before,
+body footer .field textarea:valid + label::before {
   content: attr(data-title);
   background: none;
   top: -20px;
 }
 
-body footer .field input:focus + label::before {
+body footer .field input:focus + label::before,
+body footer .field textarea:focus + label::before {
   color: #fff;
   background: none;
   top: -20px;

@@ -7,12 +7,9 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Ponte - Test Project</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/responsive.css">
-    <script src="js/style.js"></script>
 
 </head>
 
@@ -363,22 +360,23 @@
                     <div class="text-title">Contact Form</div>
 
                     <div class="field">
-                        <input type="text" required autocomplete="off" id="password">
+                        <input type="text" required autocomplete="off">
                         <label title="Name" data-title="Name"></label>
                     </div>
                     <div class="field">
-                        <input type="text" required autocomplete="off" id="password">
+                        <input type="text" required autocomplete="off">
                         <label title="E-mail" data-title="E-mail"></label>
                     </div>
-                    <div class="field" id="counter">
-                        <input class="message" type="text" required autocomplete="off" id="password">
+                    <div class="field">
+                        <textarea maxLength="200" id="counter" class="message" type="text" required
+                            autocomplete="off"></textarea>
                         <label title="Message" data-title="Message"></label>
                     </div>
 
 
                     <div class="text-calculator">
                         <span>Maximum 200 karakter</span>
-                        <span>-</span> <span>200 Maradt</span>
+                        <span>-</span> <span id="caracters-left">200</span><span>Maradt</span>
                     </div>
 
                     <button>Send <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
@@ -417,6 +415,15 @@
             </div>
         </div>
     </footer>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="js/style.js"></script>
+
+
 </body>
+
+
 
 </html>
