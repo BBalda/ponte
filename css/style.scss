@@ -8,6 +8,7 @@ body {
     font-weight: 50;
     word-break: keep-all;
 
+
     a {
         cursor: pointer !important;
     }
@@ -27,9 +28,12 @@ body {
             color: $white !important;
             height: 80px;
 
+            .navbar-brand {
+                width: 9%;
+            }
 
             svg {
-                width: 20%;
+                width: 70%;
             }
 
             .hamburger {
@@ -93,6 +97,68 @@ body {
             position: fixed;
             width: 100%;
             z-index: 1000;
+        }
+
+        .carousel {
+            width: 100%;
+            height: 250px;
+
+            .carousel-inner {
+                position: relative;
+                width: 100%;
+                height: 250px;
+                overflow: hidden;
+                position: absolute;
+                bottom: 0;
+
+                .carousel-item {
+                    position: absolute;
+                    bottom: 0;
+
+                    .carousel-caption {
+                        right: 0;
+                        text-align: left;
+                        display: flex;
+                        flex-direction: column;
+                        display: inline-flex;
+                    }
+                }
+            }
+
+            .carousel-indicators {
+                justify-content: flex-start;
+
+                li {
+                    width: 12px;
+                    height: 12px;
+                    margin: -10px 10px -10px 0;
+
+                    &:active {}
+                }
+
+            }
+        }
+
+        .slider-wrapper {
+            width: 40%;
+            height: 250px;
+            position: absolute;
+            bottom: 60px;
+            left: 130px;
+            color: $white;
+
+            h1 {
+                text-transform: uppercase;
+                font-size: 48px;
+            }
+
+            span {
+                font-size: 24px;
+            }
+
+            a {
+                text-decoration: underline;
+            }
         }
     }
 

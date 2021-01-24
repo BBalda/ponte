@@ -36,8 +36,12 @@ body header .navbar {
   height: 80px;
 }
 
+body header .navbar .navbar-brand {
+  width: 9%;
+}
+
 body header .navbar svg {
-  width: 20%;
+  width: 70%;
 }
 
 body header .navbar .hamburger {
@@ -111,6 +115,74 @@ body header .sticky {
   position: fixed;
   width: 100%;
   z-index: 1000;
+}
+
+body header .carousel {
+  width: 100%;
+  height: 250px;
+}
+
+body header .carousel .carousel-inner {
+  position: relative;
+  width: 100%;
+  height: 250px;
+  overflow: hidden;
+  position: absolute;
+  bottom: 0;
+}
+
+body header .carousel .carousel-inner .carousel-item {
+  position: absolute;
+  bottom: 0;
+}
+
+body header .carousel .carousel-inner .carousel-item .carousel-caption {
+  right: 0;
+  text-align: left;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+}
+
+body header .carousel .carousel-indicators {
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+}
+
+body header .carousel .carousel-indicators li {
+  width: 12px;
+  height: 12px;
+  margin: -10px 10px -10px 0;
+}
+
+body header .slider-wrapper {
+  width: 40%;
+  height: 250px;
+  position: absolute;
+  bottom: 60px;
+  left: 130px;
+  color: #fff;
+}
+
+body header .slider-wrapper h1 {
+  text-transform: uppercase;
+  font-size: 48px;
+}
+
+body header .slider-wrapper span {
+  font-size: 24px;
+}
+
+body header .slider-wrapper a {
+  text-decoration: underline;
 }
 
 body section {

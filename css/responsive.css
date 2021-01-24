@@ -27,7 +27,7 @@
     width: 100% !important;
   }
   footer .social-icons {
-    margin: 10px 0 50px 0 !important;
+    margin: 10px 5px 50px 5px !important;
   }
   footer .field input {
     margin: 0 !important;
@@ -57,6 +57,7 @@
   }
   .navbar svg {
     margin-left: 20px;
+    width: 100% !important;
   }
   .navbar button {
     marfin-right: 20px;
@@ -79,6 +80,17 @@
     -webkit-box-pack: start !important;
         -ms-flex-pack: start !important;
             justify-content: flex-start !important;
+  }
+  .slider-wrapper {
+    left: 0 !important;
+    bottom: 150px !important;
+    width: 100% !important;
+  }
+  .slider-wrapper h1 {
+    font-size: 35px !important;
+  }
+  .slider-wrapper span {
+    font-size: 18px !important;
   }
 }
 

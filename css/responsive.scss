@@ -42,7 +42,7 @@
         }
 
         .social-icons {
-            margin: 10px 0 50px 0 !important;
+            margin: 10px 5px 50px 5px !important;
         }
 
         .field {
@@ -84,6 +84,7 @@
 
         svg {
             margin-left: 20px;
+            width: 100% !important;
         }
 
         button {
@@ -111,6 +112,20 @@
                     justify-content: flex-start !important;
                 }
             }
+        }
+    }
+
+    .slider-wrapper {
+        left: 0 !important;
+        bottom: 150px !important;
+        width: 100% !important;
+
+        h1 {
+            font-size: 35px !important;
+        }
+
+        span {
+            font-size: 18px !important;
         }
     }
 }
