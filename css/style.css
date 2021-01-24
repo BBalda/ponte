@@ -36,12 +36,6 @@ body header .navbar {
   height: 80px;
 }
 
-body header .navbar .navbar-brand {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-}
-
 body header .navbar svg {
   width: 20%;
 }

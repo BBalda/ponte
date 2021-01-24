@@ -4,42 +4,6 @@
     height: 517px !important;
     background-position-x: center !important;
   }
-  header .navbar {
-    height: auto !important;
-    padding: 0 !important;
-  }
-  header .navbar .navbar-nav {
-    background: #0093d8;
-  }
-  header .navbar .navbar-nav a {
-    width: 50% !important;
-  }
-  header .navbar svg {
-    width: 20% !important;
-    margin-left: 20px;
-  }
-  header .navbar button {
-    marfin-right: 20px;
-  }
-  header .navbar .nav-item {
-    margin: 0 !important;
-  }
-  header .navbar .nav-item .nav-link {
-    border-top: 1px solid #fff;
-  }
-  header .navbar .nav-item a {
-    padding: 0 20px !important;
-  }
-  header .navbar .nav-item .dropdown-menu {
-    width: 100% !important;
-  }
-  header .navbar .nav-item .dropdown-menu .dropdown-item {
-    background: #007bb5 !important;
-    padding-left: 50px !important;
-    -webkit-box-pack: start !important;
-        -ms-flex-pack: start !important;
-            justify-content: flex-start !important;
-  }
   section span {
     font-size: 14px !important;
   }
@@ -79,6 +43,45 @@
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
 /* Medium devices (landscape tablets, 768px and up) */
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (max-width: 992px) {
+  .navbar {
+    height: auto !important;
+    padding: 0 !important;
+  }
+  .navbar .container {
+    max-width: 100% !important;
+  }
+  .navbar .navbar-nav {
+    background: #0093d8;
+  }
+  .navbar svg {
+    margin-left: 20px;
+  }
+  .navbar button {
+    marfin-right: 20px;
+  }
+  .navbar .nav-item {
+    margin: 0 !important;
+  }
+  .navbar .nav-item .nav-link {
+    border-top: 1px solid #fff;
+  }
+  .navbar .nav-item a {
+    padding: 0 20px !important;
+  }
+  .navbar .nav-item .dropdown-menu {
+    width: 100% !important;
+  }
+  .navbar .nav-item .dropdown-menu .dropdown-item {
+    background: #007bb5 !important;
+    padding-left: 50px !important;
+    -webkit-box-pack: start !important;
+        -ms-flex-pack: start !important;
+            justify-content: flex-start !important;
+  }
+}
+
 /* Large devices (laptops/desktops, 992px and up) */
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 /*# sourceMappingURL=responsive.css.map */
