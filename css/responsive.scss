@@ -1,0 +1,119 @@
+@import "colors.scss";
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    header {
+        height: 517px !important;
+        background-position-x: center !important;
+
+        .navbar {
+            height: auto !important;
+            padding: 0 !important;
+
+            .navbar-nav {
+                background: $blue;
+
+                a {
+                    width: 50% !important;
+                }
+
+            }
+
+            svg {
+                width: 20% !important;
+                margin-left: 20px;
+            }
+
+            button {
+                marfin-right: 20px;
+            }
+
+            .nav-item {
+                margin: 0 !important;
+
+                .nav-link {
+                    border-top: 1px solid $white;
+                }
+
+                a {
+                    padding: 0 20px !important;
+
+                }
+
+                .dropdown-menu {
+                    width: 100% !important;
+
+                    .dropdown-item {
+                        background: $darkBlue !important;
+                        padding-left: 50px !important;
+                        justify-content: flex-start !important;
+                    }
+                }
+            }
+        }
+    }
+
+    section {
+        span {
+            font-size: 14px !important;
+        }
+
+        .text-title {
+            line-height: 30px !important;
+        }
+
+        .custom-row {
+            width: 80% !important;
+            margin: 0 auto !important;
+        }
+
+        .logo-box {
+            img {
+                width: 70px !important;
+            }
+        }
+
+        .text-title {
+            margin-bottom: 20px !important;
+        }
+    }
+
+    footer {
+        padding: 20px 0 10px 0 !important;
+
+        .section {
+            width: 100% !important;
+        }
+
+        .social-icons {
+            margin: 10px 0 50px 0 !important;
+        }
+
+        .field {
+            input {
+                margin: 0 !important;
+            }
+        }
+
+        .text-calculator {
+            margin-left: 0px !important;
+            margin-top: -17px !important;
+        }
+
+        button {
+            margin-top: 20px;
+        }
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {}

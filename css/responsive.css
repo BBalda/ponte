@@ -1,0 +1,84 @@
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  header {
+    height: 517px !important;
+    background-position-x: center !important;
+  }
+  header .navbar {
+    height: auto !important;
+    padding: 0 !important;
+  }
+  header .navbar .navbar-nav {
+    background: #0093d8;
+  }
+  header .navbar .navbar-nav a {
+    width: 50% !important;
+  }
+  header .navbar svg {
+    width: 20% !important;
+    margin-left: 20px;
+  }
+  header .navbar button {
+    marfin-right: 20px;
+  }
+  header .navbar .nav-item {
+    margin: 0 !important;
+  }
+  header .navbar .nav-item .nav-link {
+    border-top: 1px solid #fff;
+  }
+  header .navbar .nav-item a {
+    padding: 0 20px !important;
+  }
+  header .navbar .nav-item .dropdown-menu {
+    width: 100% !important;
+  }
+  header .navbar .nav-item .dropdown-menu .dropdown-item {
+    background: #007bb5 !important;
+    padding-left: 50px !important;
+    -webkit-box-pack: start !important;
+        -ms-flex-pack: start !important;
+            justify-content: flex-start !important;
+  }
+  section span {
+    font-size: 14px !important;
+  }
+  section .text-title {
+    line-height: 30px !important;
+  }
+  section .custom-row {
+    width: 80% !important;
+    margin: 0 auto !important;
+  }
+  section .logo-box img {
+    width: 70px !important;
+  }
+  section .text-title {
+    margin-bottom: 20px !important;
+  }
+  footer {
+    padding: 20px 0 10px 0 !important;
+  }
+  footer .section {
+    width: 100% !important;
+  }
+  footer .social-icons {
+    margin: 10px 0 50px 0 !important;
+  }
+  footer .field input {
+    margin: 0 !important;
+  }
+  footer .text-calculator {
+    margin-left: 0px !important;
+    margin-top: -17px !important;
+  }
+  footer button {
+    margin-top: 20px;
+  }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+/* Medium devices (landscape tablets, 768px and up) */
+/* Large devices (laptops/desktops, 992px and up) */
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+/*# sourceMappingURL=responsive.css.map */

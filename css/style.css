@@ -1,0 +1,424 @@
+@font-face {
+  font-family: 'Roboto-Regular';
+  src: url("../assets/fonts/roboto/Roboto-Regular.woff2") format("woff2"), url("../assets/fonts/roboto/Roboto-Regular.woff") format("woff");
+}
+
+@font-face {
+  font-family: 'Roboto-Light';
+  src: url("../assets/fonts/roboto/Roboto-Light.woff2") format("woff2"), url("../assets/fonts/roboto/Roboto-Light.woff") format("woff");
+}
+
+body {
+  background: #fff;
+  font-family: 'Roboto-Regular';
+  font-weight: 50;
+  word-break: keep-all;
+}
+
+body a {
+  cursor: pointer !important;
+}
+
+body header {
+  width: 100%;
+  height: 580px;
+  background: url("../assets/images/wallpaper.png") no-repeat;
+  background-size: cover;
+  -webkit-box-shadow: inset -1px -57px 43px 1px rgba(0, 0, 0, 0.77);
+  box-shadow: inset -1px -57px 43px 1px rgba(0, 0, 0, 0.77);
+  position: relative;
+}
+
+body header .navbar {
+  background: -webkit-gradient(linear, left top, left bottom, from(#20263c), to(rgba(0, 0, 0, 0.499037)));
+  background: linear-gradient(180deg, #20263c 0%, rgba(0, 0, 0, 0.499037) 100%);
+  color: #fff !important;
+  height: 80px;
+}
+
+body header .navbar .navbar-brand {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+body header .navbar svg {
+  width: 20%;
+}
+
+body header .navbar .hamburger {
+  width: 36px;
+  height: 5px;
+  background: #fff;
+  margin: 5px 0;
+}
+
+body header .navbar .nav-item {
+  margin: 0 20px;
+}
+
+body header .navbar .nav-item .nav-link {
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 18px;
+  font-weight: 200;
+  height: 80px;
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body header .navbar .nav-item .nav-link:hover {
+  background: #0093d8;
+}
+
+body header .navbar .nav-item .dropdown-menu {
+  margin: 0;
+  width: 130px;
+  padding: 0;
+  height: auto;
+  background: #0093d8;
+  -webkit-transition: 0.4s all ease;
+  transition: 0.4s all ease;
+}
+
+body header .navbar .nav-item .dropdown-menu .dropdown-item {
+  height: 80px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #fff;
+  border-top: 1px solid #fff;
+}
+
+body header .navbar .nav-item .dropdown-menu .dropdown-item:hover {
+  background: #007bb5;
+  -webkit-transition: 0.4s all ease;
+  transition: 0.4s all ease;
+}
+
+body header .navbar-collapse {
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+body header .sticky {
+  position: fixed;
+  width: 100%;
+  z-index: 1000;
+}
+
+body section {
+  margin-top: 25px;
+}
+
+body section .content {
+  margin: 25px 0;
+}
+
+body section .content img {
+  width: 50%;
+  padding-left: 30px;
+  padding-bottom: 30px;
+  float: right;
+}
+
+body section .content .text-title {
+  font-family: 'Roboto-Light';
+  font-size: 34px;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+  font-weight: 500;
+}
+
+body section .content span {
+  font-family: 'Roboto-Regular';
+  font-size: 16px;
+  display: block;
+  text-align: justify;
+  line-height: 25px;
+  font-weight: 500;
+}
+
+body section .content span ul {
+  list-style: none;
+}
+
+body section .content span ul li {
+  margin: 5px 0;
+}
+
+body section .content span ul li:before {
+  content: '';
+  display: inline-block;
+  height: 6px;
+  width: 8px;
+  background-image: url(/assets/images/list.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin-right: 0.5em;
+}
+
+body section .content a {
+  color: #0093d8;
+  font-weight: 800;
+  float: right;
+}
+
+body section .content a:hover {
+  color: #007bb5;
+}
+
+body section .partners {
+  width: 100%;
+}
+
+body section .partners .box {
+  border: 1px #caccce solid;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body section .partners .logo-box {
+  width: 100%;
+  height: 155px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body section .partners img {
+  width: 110px;
+  padding: 0;
+  -webkit-transition: 0.8s all ease;
+  transition: 0.8s all ease;
+}
+
+body section .partners img:hover {
+  -webkit-transform: scale(0.7);
+          transform: scale(0.7);
+  -webkit-transition: 0.4s all ease;
+  transition: 0.4s all ease;
+}
+
+body footer {
+  width: 100%;
+  height: auto;
+  background: #2d333d;
+  padding: 50px 20px 10px 20px;
+  margin-top: 50px;
+}
+
+body footer .section {
+  width: 80%;
+}
+
+body footer .text-title {
+  color: #fff;
+  font-size: 24px;
+  text-transform: uppercase;
+  margin-bottom: 40px;
+  line-height: 25px;
+}
+
+body footer span {
+  font-size: 16px;
+  color: #fff;
+  text-align: justify;
+  display: block;
+}
+
+body footer hr {
+  width: 100%;
+  border-color: #c8c8c8;
+  opacity: 0.5;
+}
+
+body footer p {
+  font-size: 14px;
+  color: #fff;
+  padding-left: 15px;
+}
+
+body footer p a {
+  color: #fff;
+}
+
+body footer .social {
+  width: auto;
+  padding-left: 15px;
+}
+
+body footer .social .social-icons {
+  width: 50px;
+  height: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  float: left;
+  margin-right: 7px;
+  margin-top: 40px;
+}
+
+body footer .social .social-icons svg {
+  width: 50%;
+  height: auto;
+}
+
+body footer .fb {
+  background: #3b5998;
+}
+
+body footer .in {
+  background: #0097da;
+}
+
+body footer .twitter {
+  background: #00ccff;
+}
+
+body footer input {
+  width: 100%;
+  padding: 15px;
+  background: grey;
+  border: 1px solid #000;
+  margin: 5px;
+}
+
+body footer .label-before, body footer .field input:valid + label::before, body footer .field input:focus + label::before {
+  line-height: 20px;
+  font-size: 12px;
+  top: -10px;
+  background: #fff;
+  padding: 0 6px;
+  left: 9px;
+}
+
+body footer .field {
+  position: relative;
+}
+
+body footer .field label::before {
+  content: attr(title);
+  position: absolute;
+  top: 5px;
+  left: 15px;
+  line-height: 40px;
+  font-size: 16px;
+  color: #fff;
+  -webkit-transition: 300ms all;
+  transition: 300ms all;
+  font-weight: 400;
+}
+
+body footer .field input {
+  width: 100%;
+  line-height: 40px;
+  padding: 0 15px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-size: 14px;
+  color: #fff;
+  border: 1px solid #000;
+  background: #252628;
+}
+
+body footer .field input:focus {
+  outline: 0;
+  border-color: #0093d8;
+}
+
+body footer .field input:valid + label::before {
+  content: attr(data-title);
+  background: none;
+  top: -20px;
+}
+
+body footer .field input:focus + label::before {
+  color: #fff;
+  background: none;
+  top: -20px;
+}
+
+body footer .field .message {
+  height: 142px;
+}
+
+body footer .text-calculator {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  color: #c8c8c8;
+  margin-left: 21px;
+  margin-top: -20px;
+}
+
+body footer .text-calculator span {
+  font-size: 12px;
+  margin: 0 5px;
+}
+
+body footer button {
+  width: 136px;
+  height: 50px;
+  background: #0093d8;
+  color: #fff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-transform: uppercase;
+  border-radius: 5px;
+  font-size: 18px;
+  -webkit-transition: 0.4s all ease;
+  transition: 0.4s all ease;
+  border: none;
+  outline: none;
+  float: right;
+}
+
+body footer button:hover {
+  background: #007bb5;
+  -webkit-transition: 0.4s all ease;
+  transition: 0.4s all ease;
+}
+
+body footer button svg {
+  margin-left: 15px;
+}
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,10 @@
+@font-face {
+  font-family: 'Roboto-Regular';
+  src: url("../assets/fonts/roboto/Roboto-Regular.woff2") format("woff2"), url("../assets/fonts/roboto/Roboto-Regular.woff") format("woff");
+}
+
+@font-face {
+  font-family: 'Roboto-Light';
+  src: url("../assets/fonts/roboto/Roboto-Light.woff2") format("woff2"), url("../assets/fonts/roboto/Roboto-Light.woff") format("woff");
+}
+/*# sourceMappingURL=fonts.css.map */

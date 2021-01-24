@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,UAAU;EACN,WAAW,EAAE,gBAAgB;EAC7B,GAAG,EAAE,kDAAkD,CAAC,eAAe,EACnE,iDAAiD,CAAC,cAAc;;;AAGxE,UAAU;EACN,WAAW,EAAE,cAAc;EAC3B,GAAG,EAAE,gDAAgD,CAAC,eAAe,EACjE,+CAA+C,CAAC,cAAc",
+    "sources": [
+        "fonts.scss"
+    ],
+    "names": [],
+    "file": "fonts.css"
+}
