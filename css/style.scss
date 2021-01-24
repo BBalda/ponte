@@ -133,12 +133,15 @@ body {
             .carousel-indicators {
                 justify-content: flex-start;
 
+                .active {
+                    background: red;
+                }
+
                 li {
                     width: 12px;
                     height: 12px;
                     margin: -10px 10px -10px 0;
 
-                    &:active {}
                 }
 
             }
