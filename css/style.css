@@ -162,10 +162,6 @@ body header .carousel .carousel-indicators {
           justify-content: flex-start;
 }
 
-body header .carousel .carousel-indicators .active {
-  background: red;
-}
-
 body header .carousel .carousel-indicators li {
   width: 12px;
   height: 12px;
